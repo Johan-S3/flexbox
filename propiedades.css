@@ -1,3 +1,9 @@
 :root{
+  --gris_body: rgb(75, 75, 75, 1);
+  --negro: #111111;
+  --gris_borde: #676767;
   --blanco: white;
+  --gris_transparente: rgba(41, 41, 41, 1);
+  --naranja: #ff7a1d;
+  --blanco_transparente: rgb(174, 174, 174, 1);
 }

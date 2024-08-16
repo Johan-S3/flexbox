@@ -1,47 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url(propiedades.css);
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 572;
+  font-style: normal;
 }
 body{
-  background-color: white;
+  background-color: var(--gris_body);
 }
 header{
-  max-width: 1600px;
   height: 56px;
   display: flex;
-  background-color: #111111;
+  background-color: var(--negro);
   padding: 0 20px;
-  border-bottom: 1px solid #676767;
+  border-bottom: 1px solid var(--gris_borde);
   align-items: center;
   justify-content: space-between;
 }
 .navegador__items{
   display: flex;
-  align-items: center;
+  align-items: stretch;
   height: 56px;
+  margin-left: 25px;
 }
 .navegador__logo{
-  width: 353px;
+  width: 375px;
   height: 35px;
-  font-weight: bold;
-  margin-left: 25px;
+  cursor: pointer;
+  padding-right: 15px;
+  margin: auto auto;
 }
 .navegador__item{
   display: inline-block;
-  color: white;
-  font-size: 12px;
-  padding: 10px 10px 0;
+  color: var(--blanco);
+  font-size: 14px;
+  padding: 10px 15px 0;
+  cursor: pointer;
+  align-content: center;
 }
 .navegador__item:hover{
-  background-color: gray;
+  background-color: var(--gris_transparente);
+  color: var(--naranja);
+  border-bottom: 1px solid var(--gris_borde);
 }
 .navegador__icono{
-  background-color: white;
-  color: black;
+  background-color: var(--blanco);
+  color: var(--negro);
   border-radius: 100%;
   padding: 7px;
-  font-size: large;
   margin-right: 25px;
+  cursor: pointer;
+}
+.navegador__icono:hover{
+  background-color: var(--blanco_transparente);
 }
 
